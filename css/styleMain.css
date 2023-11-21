@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo{
+    width: 100%;
+    max-width: 120px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.titulo{
+    margin: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(87, 89, 92);
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    background: #f3eeee;
+    /* background: var(--orange); */
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+
+.boton{
+    background-color: #008196;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.boton2{
+    background-color: #008196;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+
+
+
+#content{
+    margin: 50px auto;
+    max-width: 700px;
+    width: 90%;
+    margin-top: 150px;
+}
+
+.p1{
+    margin-top: 50px;
+    font-size: 2rem;
+    color: #008196;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p2{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: rgba(66, 65, 65, 0.89);
+    font-weight: bold;
+    text-align: center;
+}
+
+.Imagen{
+    margin: 30px auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.footer{
+    background-color: #008196;
+    text-align: center;
+    color: white;
+    
+}
+
+@media screen and (max-width: 767px) {
+ 
+    .boton {
+        margin-top: 20px;
+    }
+}
